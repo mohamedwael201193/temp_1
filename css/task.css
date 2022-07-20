@@ -1,0 +1,40 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+.phone{
+    width: 400px;
+    height: 400px;
+   
+    margin: auto;
+
+position: relative;
+overflow: hidden;
+
+}
+.phone:hover .pos{
+    bottom: -40px;
+    left: -40px;   
+}
+.pos{
+    position:absolute;
+width: 250px;
+    height: 250px;
+    background-color:burlywood;
+    bottom: -400px;
+    left: -400px;
+    border-radius: 150px;
+    transition: 1s;
+    
+
+}
+.phone img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+}
+.phone:hover img{
+    transform: scale(1);
+    transition: 1s;
+     
+}
